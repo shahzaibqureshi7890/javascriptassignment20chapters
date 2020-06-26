@@ -1090,8 +1090,672 @@
 
 // ===Chapter # 17 to 20 and Task # 10
 
-
-// for(var i=1;i<=20;i++)
+// for(var i=5;i<=100;i=i+5)
 // {
-// document.write(5*i + ",");
+//     document.write(i +",");
 // }
+
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 1
+
+
+// var firstName=prompt("Enter First Name");
+// var lastName=prompt("Enter Last Name");
+
+// var fullName=firstName+ " " + lastName;
+
+// document.write(fullName);
+
+
+
+// ===Chapter # 21 to 25 and Task # 2
+
+
+// var model=prompt("Enter mobile model");
+
+// var lenght=model.length;
+
+// document.write("My favorite mobile is: " + model + "<br>" + "lenght of string: " + lenght);
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 3
+
+
+// var string="pakistani";
+
+// var a=string.indexOf("n");
+
+// document.write("String: " + string + "<br>" + "Index Of  'n': " + a);
+
+
+
+// ===Chapter # 21 to 25 and Task # 4
+
+
+// var string="Hello World";
+
+// var a=string.lastIndexOf("l");
+
+// document.write("String: " + string + "<br>" + "Last Index Of  'l': " + a);
+
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 5
+
+
+// var string="Pakistani";
+
+// var a=string.charAt(3);
+
+// document.write("String: " + string + "<br>" + "Character at index 3: " + a);
+
+
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 7
+
+
+// var string="Hyderabad";
+
+
+// var a=string.replace("Hyder","Islam");
+
+// document.write("City: " + string + "<br>" + "After replacement: " + a);
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 8
+
+
+// var text="Ali and Sami are best friends. They play cricket and football together.";
+
+// var a=text.replace(/and/g,"&");
+
+// document.write(a);
+
+
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 9
+
+
+
+// var string="472";
+
+// var number=Number(string);
+
+// document.write("Value: " + string + "<br>" + "Type: string" + "<br>" + "Value: " + number + "<br>" + "Type: " + "number");
+
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 10
+
+
+// var userInput=prompt("Enter Input");
+
+// var a=userInput.toUpperCase();
+
+// document.write("User Input: " + userInput +"<br>");
+// document.write("Upper Case: " + a);
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 12
+
+
+
+// var num=35.36;
+
+// var string=num.toString();
+
+// document.write("Result: " + string);
+
+
+
+
+// ===Chapter # 21 to 25 and Task # 14
+
+// var userInput=prompt("Enter Product");
+
+// userInput=userInput.toLowerCase();
+
+
+// var items=["cake","apple","pie","cookie","chips","patties"];
+
+// for(var i=0; i<userInput.length; i++)
+// {
+//     if(items[i]===userInput)
+//     {
+//         document.write(userInput + " is available at index " + i + " in our bakery ");
+//     }
+
+// }
+
+
+
+
+
+
+
+
+// ===Chapter # 26 to 30 and Task # 1
+
+
+// var num=+prompt("Enter Positive Interger");
+
+// var round=Math.round(num);
+
+// var floor=Math.floor(num);
+
+// var ceil=Math.ceil(num);
+
+// document.write("Number: " + num + "<br>");
+
+// document.write("Round off: " + round + "<br>");
+
+// document.write("floor Value: " + floor + "<br>");
+
+// document.write("Ceil Value: " + ceil + "<br>");
+
+
+
+// ===Chapter # 26 to 30 and Task # 2
+
+
+
+// var num=+prompt("Enter Negative Interger");
+
+// var round=Math.round(num);
+
+// var floor=Math.floor(num);
+
+// var ceil=Math.ceil(num);
+
+// document.write("Number: " + num + "<br>");
+
+// document.write("Round off: " + round + "<br>");
+
+// document.write("floor Value: " + floor + "<br>");
+
+// document.write("Ceil Value: " + ceil + "<br>");
+
+
+
+
+// ===Chapter # 26 to 30 and Task # 3
+
+// var num=-4;
+
+// document.write(Math.abs(num));
+
+
+
+
+// ===Chapter # 26 to 30 and Task # 4
+
+// var dice=Math.random() * 7;
+
+// var a=Math.floor(dice);
+
+// document.write("Random Dice Value: "+a);
+
+
+
+
+// ===Chapter # 26 to 30 and Task # 5
+
+
+// var firstUser=prompt("Head User Name");
+// var secondUser=prompt("tail User Name");
+
+// var random=Math.random()*2;
+
+// var a=Math.floor(random);
+
+// if(a===1)
+// {
+// document.write(firstUser+" is win " + "<br>" + " random coin value:" + "Heads");
+// }
+
+// else
+// {
+//     document.write(secondUser+" is win " + "<br>" + " random coin value:" + "Tails");
+// }
+
+
+
+// ===Chapter # 26 to 30 and Task # 6
+
+// var random=Math.random()*100;
+
+// var num=Math.floor(random) +1;
+
+// document.write(num);
+
+
+
+
+// ===Chapter # 26 to 30 and Task # 7
+
+
+// var weight=prompt("Enter Weight in Kgs");
+
+// if(weight==="50")
+// {
+// document.write("The Weight of User is " + weight);
+// }
+
+// else if(weight==="50kgs")
+// {
+// document.write("The Weight of User is " + weight);
+// }
+
+// else if(weight==="50.2kgs")
+// {
+// document.write("The Weight of User is " + weight);
+// }
+
+// else if(weight==="50kilograms")
+// {
+// document.write("The Weight of User is " + weight);
+// }
+
+
+
+
+
+
+// ===Chapter # 26 to 30 and Task # 8
+
+// var random=Math.random()*10;
+
+// var num=Math.floor(random) +1;
+
+// var userNumber=+prompt("Enter a Number 1 to 10");
+
+
+// if(userNumber === num)
+// {
+//     document.write("congratulate the number is match");
+// }
+// else
+// {
+//     document.write("Try Again");
+// }
+
+
+
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 1
+
+// var dateTime=new Date();
+
+// document.write(dateTime);
+
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 2
+
+
+// var monthName=["jan", "feb", "march", "aprial", "may", "june", "july","augest","oct"];
+// var now = new Date();
+// var currentMonth = now.getMonth();
+// var monthOfToday =monthName[currentMonth];
+
+// alert(monthOfToday);
+
+
+
+// ===Chapter # 31 to 34 and Task # 3
+
+
+// var now = new Date();
+
+// var currentDay=now.toString();
+
+// var a=currentDay.slice(0,3);
+
+// document.write(a);
+
+
+
+// ===Chapter # 31 to 34 and Task # 4
+
+// var dayName=["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+
+// var now = new Date();
+// var currentDay = now.getDay();
+// var dayOfToday =dayName[currentDay];
+
+// if(dayOfToday==="sun" || dayOfToday==="sat")
+// {
+//     alert("It’s Fun day");
+// }
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 5
+
+
+// var now = new Date();
+// var currentDate = now.getDate();
+// var dateOfToday =currentDate;
+
+// if(dateOfToday < 16)
+// {
+// alert("First Fifteen Days of the Month");
+// }
+// else{
+//     alert("Last days of the month");
+// }
+
+
+
+// ===Chapter # 31 to 34 and Task # 6
+
+
+// var currentDate=new Date();
+
+// var currentMili=currentDate.getTime();
+
+// var currentMinutes=currentDate.getMinutes();
+// ;
+
+// document.write("Current Date: " + currentDate + "<br>");
+
+// document.write("Elapsed miliseconds since january 1,1970: " + currentMili + "<br>");
+
+// document.write("Elapsed minutes since january 1,1970: " + currentMinutes);
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 7
+
+
+// var currentDate=new Date();
+
+// var a=currentDate.getHours();
+
+// if(a < 12)
+// {
+//     alert("Itx AM");    
+// }
+// else{
+//     alert("Itx PM");
+// }
+
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 8
+
+
+// var currentDate=new Date();
+
+// currentDate.setDate(30);
+// currentDate.setMonth(11);
+// currentDate.setFullYear(2020);
+
+
+// document.write("Later Date: "+currentDate);
+
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 9
+
+// var currentDate=new Date();
+
+// var startingDate=new Date("June 18, 2015");
+
+
+// var milicurrent=currentDate.getTime();
+// var milistarting=startingDate.getTime();
+
+
+// var diff=milicurrent-milistarting;
+
+// var result=Math.floor(diff/(1000*60*60*24));
+
+// document.write(result);
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 10
+
+
+// var startingDate=new Date("Jan 01, 2015");
+
+// var referenceDate=new Date("Dec 05, 2015");
+
+
+// var milistarting=startingDate.getTime();
+// var milireference=referenceDate.getTime();
+
+
+// var diff=milireference-milistarting;
+
+// var result=Math.floor(diff/(1000*60));
+
+// document.write(result);
+
+
+
+// ===Chapter # 31 to 34 and Task # 11
+
+
+// var currentDate=new Date();
+
+// var a=currentDate.getHours();
+
+// var b=a-1;
+
+// currentDate.setHours(b);
+
+// document.write(currentDate);
+
+
+
+
+// ===Chapter # 31 to 34 and Task # 12
+
+
+// var currentDate=new Date();
+
+// var a=currentDate.getFullYear();
+
+// var b=a-100;
+
+// currentDate.setFullYear(b);
+
+// document.write(currentDate);
+
+
+
+
+
+
+// ===Chapter # 35 to 38 and Task # 1
+
+// var dateTime=new Date();
+
+// document.write(dateTime);
+
+
+
+// ===Chapter # 35 to 38 and Task # 2
+
+
+// function name(first,last)
+// {
+//     return first + " " +last;
+// }
+
+
+// var result=name("shahzaib","qureshi");
+
+// alert(result);
+
+
+
+// ===Chapter # 35 to 38 and Task # 3
+
+
+
+// function name(num1,num2)
+// {
+//     return num1+num2;
+// }
+
+
+// var a=+prompt("Enter First Num"); 
+// var b=+prompt("Enter Second Num");
+
+// var result=name(a,b);
+
+// alert(result);
+
+
+
+
+// ===Chapter # 35 to 38 and Task # 4
+
+
+
+
+// function calculater(num1,operater,num2)
+// {
+
+//     if(operater === "+")
+//     {
+//         alert(num1+num2);
+//     }
+
+//     else if(operater === "-")
+//     {
+//         alert(num1-num2);
+//     }
+    
+
+//     else if(operater === "*")
+//     {
+//         alert(num1*num2);
+//     }
+    
+
+//     else if(operater === "/")
+//     {
+//         alert(num1*num2);
+//     }
+
+//     else
+//     {
+//         alert("Incorrect operater");
+//     }
+    
+
+
+
+
+
+// }
+
+// var a=+prompt("enter num1");
+// var b=prompt("enter operater");
+// var c=+prompt("enter num2");
+
+// calculater(a,b,c);
+
+
+
+
+
+
+// ===Chapter # 35 to 38 and Task # 5
+
+
+
+// function name(num1,num2)
+// {
+//     return num1%num2;
+// }
+
+
+// var a=+prompt("Enter First Num"); 
+// var b=+prompt("Enter Second Num");
+
+// var result=name(a,b);
+
+// alert(result);
+
+
+
+
+
+
+// ===Chapter # 35 to 38 and Task # 7
+
+
+
+// function name(num1,num2)
+// {
+//     return num1 + num2;
+// }
+
+
+// var a=+prompt("Enter First Num"); 
+// var b=+prompt("Enter Second Num");
+
+// var result=name(a,b);
+
+// alert(result);
+
+
+
+
+// ===Chapter # 35 to 38 and Task # 9
+
+
+
+
+// function name(width,height)
+// {
+//     return width*height;
+// }
+
+
+// var a=+prompt("Enter width"); 
+// var b=+prompt("Enter height");
+
+// var result=name(a,b);
+
+// alert(result);
+
+
+
+
